@@ -25,6 +25,7 @@ public class UserInfo {
         boolean thereWasAConversionError = false; // Technique: using a flag to "remember" events that happened and use this info later on in your algorithm
         boolean complete = false;
 
+        // This is the main loop (Captain Obvious Strikes Again!)
         while (attempts <= MAX_ATTEMPTS_ALLOWED && !complete) {
             //////// USER INTERFACE //////
             Scanner scanner = new Scanner(System.in); // An object to wait user input from Keyboard
